@@ -12,7 +12,7 @@ public class EchoServer {
 
     private Map<String, Socket> clients = new HashMap<>();
 
-    private List<String> names = List.of("Red", "Blue", "Black", "Pink", "Gray", "Write", "Yellow", "Green", "Brown", "Gold", "Violet");
+    private List<String> names = List.of("Red", "Blue", "Black", "Pink", "Gray", "Write", "Yellow", "Green", "Brown", "Gold", "Violet", "Cyan", "Magento", "Purple", "Beige", "Lightblue", "Silver", "Bronze", "Vinous");
 
     private EchoServer(int port) {
         this.port = port;
